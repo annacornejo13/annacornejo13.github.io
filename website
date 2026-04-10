@@ -1,1 +1,107 @@
-# Hi! My name is Anna!
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anna Cornejo - Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        h1 {
+            color: #002855;
+        }
+
+        h2 {
+            color: #00509e;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        a {
+            color: #00509e;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Anna Cornejo</h1>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hi! My name is Anna Cornejo, and I am a freshman at The George Washington University studying engineering.
+            I am originally from Cincinnati, Ohio, and spent part of my childhood living in Europe.
+        </p>
+
+        <p>
+            I am currently an undecided engineering major but plan to declare Mechanical Engineering, with a minor in psychology.
+            I am passionate about product design and manufacturing, and I am especially interested in creating consumer products,
+            tools, and machinery that improve everyday life.
+        </p>
+
+        <p>
+            Outside of academics, I am a member of the GW Women’s Soccer Team. I enjoy staying active, shopping,
+            coloring, and watching Netflix.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects & Experience</h2>
+
+        <h3>Automation Project (Engineering Course)</h3>
+        <p>
+            Designed and built an automated system using an Arduino microcontroller and motion sensor.
+            The system detects movement and triggers LED outputs, demonstrating foundational skills
+            in circuits, programming, and automation.
+        </p>
+
+        <img src="project.jpg" width="300">
+
+        <h3>Private Soccer Trainer</h3>
+        <p>
+            Led personalized training sessions for 10+ young athletes, developing drills tailored
+            to skill level and improving performance.
+        </p>
+
+        <h3>Summer Nanny</h3>
+        <p>
+            Managed daily schedules and activities for children, demonstrating responsibility,
+            organization, and communication skills.
+        </p>
+
+    </section>
+
+    <section>
+        <h2>Career Goals</h2>
+        <p>
+            I aspire to work in product design and manufacturing, contributing to teams that create
+            innovative and user-focused products. I am particularly interested in companies like Procter & Gamble,
+            where I can combine engineering and psychology to better understand and meet consumer needs.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>
+            Email: anna.cornejo@gwu.edu <br><br>
+
+            <!-- Add links later if you want -->
+            GitHub: <a href="#">Coming Soon</a><br>
+            LinkedIn: <a href="#">Coming Soon</a>
+        </p>
+    </section>
+
+</body>
+</html>
