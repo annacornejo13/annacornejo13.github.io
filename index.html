@@ -33,12 +33,39 @@
             margin-bottom: 1rem;
             color: #333;
         }
+        .about-content {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+        .about-image {
+            flex-shrink: 0;
+        }
+        .about-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about-text {
+            flex: 1;
+        }
+        .about-text p {
+            margin-bottom: 1rem;
+        }
         a {
             color: #007bff;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        .section-header {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #333;
         }
     </style>
 </head>
@@ -48,13 +75,28 @@
         <p>Welcome to my portfolio</p>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
-            <p>Tell us about yourself!</p>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/anna-profile.jpg" alt="Anna Cornejo">
+                </div>
+                <div class="about-text">
+                    <p>Hi! My name is Anna Cornejo, and I'm a student at <strong>George Washington University</strong>! I am originally from Cincinnati, Ohio but lived in Europe for a portion of my childhood for my dad's work.</p>
+                    
+                    <p>I am a <strong>freshman on the soccer team</strong> here at GW, and I have been loving it! My hobbies include soccer, shopping, coloring, and watching Netflix!</p>
+                    
+                    <p class="section-header">My Major</p>
+                    <p>As an undecided engineering major, I'm exploring my options in the <a href="https://www.seas.gwu.edu/" target="_blank">School of Engineering & Applied Science</a>. I'm excited to discover which area of engineering resonates most with me!</p>
+                    
+                    <p class="section-header">First Semester at GW</p>
+                    <p>Scroll down to learn more about my first couple of months here at GW as a SEAS major!</p>
+                </div>
+            </div>
         </section>
         <section>
             <h2>Projects</h2>
-            <p>Showcase your projects here.</p>
+            <p>Coming soon!</p>
         </section>
         <section>
             <h2>Contact</h2>
